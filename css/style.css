@@ -1,0 +1,51 @@
+/* Language Select Page */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20% 65% auto;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+}
+
+header {
+    grid-area: header;
+    background-color: #FFEDAB;
+}
+
+main {
+    grid-area: main;
+    background-color: #f8cf41;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+a {
+    background-color: #a61e4d;
+    color: #eee;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #272727;
+}
