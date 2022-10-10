@@ -1,8 +1,20 @@
 /* Style sheet used for Language Select/index page */
+:root {
+ /* Color Variables */
+    --main-yellow: 248, 207, 65;
+    /* rgb(var(--main-yellow)) */
+    --light-yellow: 255, 237, 171;
+    /* rgb(var(--light-yellow)) */
+    --white: 250, 250, 250;
+    /* rgb(var(--white)) */
+    --charcoal: 39, 39, 39;
+    /* rgb(var(--charcoal)) */
+}
+
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(248, 207, 65);
+    background-color: rgb(var(--main-yellow));
     height: 100vh;
     width: 100vw;
     display: grid;
@@ -34,8 +46,8 @@ h1 {
     font-size: 70px;
     font-family: 'Nunito', sans-serif;
     font-weight: 750;
-    color: rgb(250, 250, 250);
-    text-shadow: 2px 2px 10px rgb(39, 39, 39, 0.3);
+    color: rgb(var(--white));
+    text-shadow: 2px 2px 10px rgb(var(--charcoal), 0.3);
 }
 
 /* Buttons Container */
@@ -71,11 +83,11 @@ h1 {
     justify-content: center;
     align-items: center;
     cursor: auto;
-    background-color: rgb(39, 39, 39, 0.2);
+    background-color: rgb(var(--charcoal),0.2);
     border-radius: 2.5px;
     border: 2px solid black;
     margin: 10px 30px;
-    padding: 10px 16px;
+    padding: 10px 14px;
     display: inline-block;
 
     text-align: center;
