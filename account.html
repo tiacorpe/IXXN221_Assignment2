@@ -5,9 +5,143 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Culture Shocked | Account</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style4.css">
     
+    <!-- Nunito Font -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style> 
+    
+     <!-- Lato Font -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&display=swap');
+        </style>
+    
+     <!-- Inter Font -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+        </style> 
+</head>
+
+<body>
+    <header>
+        <!-- Website Title -->
+        <div class="website-title">
+            <h3><a href="landing.html">Culture Shocked</a></h3>
+        </div>
+
+        <!-- Navigation Bar -->
+        <div class="nav">
+         <!-- Left Navbar -->
+            <div class="dropdown">
+                <button class="dropbtn">Resources
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="social.html">Social</a>
+                    <a href="history.html">History</a>
+                    <a href="culture.html">Culture</a>
+                </div>
+            </div>
+            <a href="discussionboard.html">Community</a>
+
+         <!-- Right Navbar -->
+            <!-- Wishlist & Profile Icons -->
+            <div class="wishlist-acc-container">
+                <a href="/account.html">
+                    <img 
+                        class="wishlist-icon" 
+                        src="images/wishlist_jcon.png"
+                    >
+                </a>
+                <a href="/account.html">
+                    <img 
+                        class="profile-icon" 
+                        src="/images/profile_icon.png"
+                    >
+                </a>
+            </div>
+            <!-- Search Bar -->
+            <div class="search-bar-container">
+                <img 
+                    class="search-icon" 
+                    src="images/search_icon.png"
+                >
+                <input 
+                    class="search" 
+                    placeholder="Search..." 
+                >
+            </div>
+        </div>
+    </header>
+  <!-- End of core code. -->
+
+   <main> 
+        <!-- Title -->
+        <div class="account-title">
+            <h1>My Account</h1>
+        </div>
+   </main>
+
+   <section>
+       <div class="account-info">
+           <p>Manage your personal details and access your saved information pages here.
+           </p>
+       </div>
+   </section>
+   <section class="account-details">
+        <div class="details">
+            <h2>Email</h2>
+            <input type="text">
+        
+            <h2>Password</h2>
+            <input type="text">
+            <h5>Create New Password?</h5>
+        </div>
+        <div class="profile">
+            <img 
+                class="picture" 
+                src="/images/profile_picture.png"
+            >
+            <h5>Select Profile Picture</h5>
+        </div>
+   </section>
+
+    <!-- Confirm Button -->
+   <section>
+        <div class="save-container">
+            <button class="save"> Save </button>
+        </div>
+   </section>
+   <section>
+        <div class="delete-container">
+            <button class="delete-account"> Delete Account </button>
+        </div>
+    </section>
+
+    <!-- Saved -->
+   <main> 
+        <div class="saved-title">
+            <h1>Saved</h1>
+        </div>
+    </main>
+    <h6 class="info">No saved information.</h6>
+
+   <footer> 
+    <!-- Language Select Link -->
+       <div class="language-btn">
+           <a href="index.html">
+               <button class="back-to-language-select">Language</button>
+           </a>
+       </div>
+    <!-- Terms of Use + Privacy Policy -->
+       <div class="policies">
+           <ul>
+               <li>Terms of Use</li>
+               <li>Privacy Policy</li>
+           </ul>
+       </div>
+   </footer>
+
 </body>
 </html>
