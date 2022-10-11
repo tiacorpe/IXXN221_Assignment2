@@ -7,7 +7,7 @@
     <title>Culture Shocked | Culture</title>
     <link rel="stylesheet" href="css/style2.css">
     
-    <!-- Nunito Font -->
+     <!-- Nunito Font -->
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
         </style> 
@@ -25,21 +25,39 @@
 
 <body>
     <header>
-    <!-- Website Title -->
+     <!-- Website Title -->
        <div class="website-title">
            <h3><a href="landing.html">Culture Shocked</a></h3>
        </div>
 
-    <!-- Navigation Bar -->
-       <div class="navigation">
-           <a href="social.html">Social</a>
-           <a href="culture.html">Community</a>
-           <!-- Search Bar -->
+     <!-- Navigation Bar -->
+       <div class="nav">
+         <!-- Left Navbar -->
+            <div class="dropdown">
+                <button class="dropbtn">Resources
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="social.html">Social</a>
+                    <a href="history.html">History</a>
+                    <a href="culture.html">Culture</a>
+                </div>
+            </div>
+           <a href="discussionboard.html">Community</a>
+
+         <!-- Right Navbar -->
+         <!-- Search Bar -->
            <div class="search-bar-container">
-               <img class="search-icon" src="images/search_icon.png">
-               <input class="search" placeholder="Search..." >
-           </div>
-       </div>
+                <img class="search-icon" src="images/search_icon.png">
+                <input class="search" placeholder="Search..." >
+            </div>
+
+            <!-- Wishlist & Profile Icons -->
+            <div class="wishlist-acc-container">
+                <img class="wishlist-icon" src="images/wishlist_jcon.png">
+                <img class="profile-icon" src="/images/profile_icon.png">
+            </div>
+        </div>
    </header>
 
    <main> 
@@ -56,16 +74,32 @@
        </div>
    </section>
 
+ <!-- Images -->
    <section>
-        <img class="maori-people" src="images/img_3.jpg" alt="Placeholder">
-        <h5 class="references"><a href="https://www.theguardian.com/world/commentisfree/2020/feb/03/we-must-dismantle-our-colonial- system-and-rebuild-it-with-maori-at-the-heart">Retrieved from: https://www.theguardian.com/world/commentisfree/2020/feb/03/we-must-dismantle-our-colonial- system-and-rebuild-it-with-maori-at-the-heart</a></h5>
+        <img 
+            class="maori-people" 
+            src="images/img_3.jpg" 
+            alt="Placeholder">
+        <h5 
+            class="references">
+            <a href="https://www.theguardian.com/world/commentisfree/2020/feb/03/we-must-dismantle-our-colonial- system-and-rebuild-it-with-maori-at-the-heart">
+            Retrieved from: https://www.theguardian.com/world/commentisfree/2020/feb/03/we-must-dismantle-our-colonial- system-and-rebuild-it-with-maori-at-the-heart</a>
+        </h5>
    </section>
 
    <section>
-        <img class="maori-carvings" src="images/img_4.jpg" alt="Placeholder">
-        <h5 class="references"><a href="https://theconversation.com/tokenism-and-te-reo-maori-why-some-things-just-shouldnt-be- translated-190140">Retrieved from: "https://theconversation.com/tokenism-and-te-reo-maori-why-some-things-just-shouldnt-be- translated-190140"</a></h5>
+        <img 
+            class="maori-carvings" 
+            src="images/img_4.jpg" 
+            alt="Placeholder">
+        <h5 
+            class="references">
+            <a href="https://theconversation.com/tokenism-and-te-reo-maori-why-some-things-just-shouldnt-be- translated-190140">
+            Retrieved from: "https://theconversation.com/tokenism-and-te-reo-maori-why-some-things-just-shouldnt-be- translated-190140"</a>
+        </h5>
    </section>
 
+ <!-- Footer -->
    <footer> 
     <!-- Language Select Link -->
        <div class="language-btn">

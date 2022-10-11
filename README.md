@@ -1,6 +1,3 @@
-Alot in this commit (not very good at commiting, in between long work sessions.)
-- Made adjustments to some of the compositon and selected font sizes.
-- Finished the social page.
-- Began the culture page (just need to resize images).
-- Finished the core code for the footer, some of the body, and part of the header.
- *Note>>> The 'core code' is what I'm calling the key, repeated sections of code - this includes the header (nav, input, etc.), footer (language, terms), and some of the body code (page dependent).
+Have sorted out the dropdown menu and corresponding links for the navigation bar (Resources) - I mentioned in the report from assignment 2-1 that I hadn't settled on a design for the dropdown/overlay. I did try the intial design again with the yellow background but it looked as bad as it did in the prototype. For this I stuck with a plain white dropdown and a light grey hover colour. It looks a lot cleaner and the hover was definately necessary for better useability.
+Also been cleaning up alot of the code in the html/css. Still quite a few things I need to sort out, such as the search bar, profile and wishlist icons, etc. Until those are sorted, a lot of the code across the different .html's is are inconsistent - 'cos I decided to wait until I sorted out those bugs to copy & paste the code.
+Further finished off the history & culture pages as well and sorted out the images. Did have a bit of trouble initially with how to scale them and maintain the aspect ration but got there eventually (width: 100%, height: auto).
