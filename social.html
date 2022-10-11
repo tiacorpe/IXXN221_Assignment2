@@ -25,28 +25,56 @@
 
 <body>
     <header>
-    <!-- Website Title -->
-       <div class="website-title">
-           <h3><a href="landing.html">Culture Shocked</a></h3>
-       </div>
+        <!-- Website Title -->
+        <div class="website-title">
+            <h3><a href="landing.html">Culture Shocked</a></h3>
+        </div>
 
-    <!-- Navigation Bar -->
-       <div class="navigation">
-           <a href="social.html">Social</a>
-           <a href="culture.html">Community</a>
+        <!-- Navigation Bar -->
+        <div class="nav">
+         <!-- Left Navbar -->
+            <div class="dropdown">
+                <button class="dropbtn">Resources
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="social.html">Social</a>
+                    <a href="history.html">History</a>
+                    <a href="culture.html">Culture</a>
+                </div>
+            </div>
+            <a href="discussionboard.html">Community</a>
 
-           <!-- Search Bar -->
-           <div class="search-bar-container">
-               <img class="search-icon" 
+         <!-- Right Navbar -->
+            <!-- Wishlist & Profile Icons -->
+            <div class="wishlist-acc-container">
+                <a href="/account.html">
+                    <img 
+                        class="wishlist-icon" 
+                        src="images/wishlist_jcon.png"
+                    >
+                </a>
+                <a href="/account.html">
+                    <img 
+                        class="profile-icon" 
+                        src="/images/profile_icon.png"
+                    >
+                </a>
+            </div>
+            <!-- Search Bar -->
+            <div class="search-bar-container">
+                <img 
+                    class="search-icon" 
                     src="images/search_icon.png"
                 >
-               <input 
+                <input 
                     class="search" 
-                    placeholder="Search..."
+                    placeholder="Search..." 
                 >
-           </div>
-       </div>
-   </header>
+            </div>
+        </div>
+    </header>
+  <!-- End of core code. -->
 
    <main> 
         <!-- Title -->
@@ -59,11 +87,17 @@
        <div class="general-info">
            <h2>General Information</h2>
            <p>Learn about the overall nature of the population and get an idea for their current experience. This could include things such as:
-            <ul>
-                <li class="general-info-li">Their politics.</li>
-                <li class="general-info-li">Natural disasters.</li>
-                <li class="general-info-li">Climate.</li>
-            </ul>
+                <ul>
+                    <li class="general-info-li">
+                        Their politics.
+                    </li>
+                    <li class="general-info-li">
+                        Natural disasters.
+                    </li>
+                    <li class="general-info-li">
+                        Climate.
+                    </li>
+                </ul>
            </p>
        </div>
    </section>
@@ -80,6 +114,27 @@
            <h2>Etiquette</h3>
            <p>Different countries have different social regulations. A simple head nod in confirmation to us, could mean something else entrirely. Take a look at our lists of social etiquette.</p>
        </div>
+   </section>
+
+   <section>
+     <!-- Search Bar -->
+        <div class="search-country-container">
+            <img 
+                class="search-country-icon" 
+                src="images/search_icon.png"
+            >
+            <input 
+                class="search-country" 
+                placeholder="Search Place/Country..." 
+            >
+        </div>
+   </section>
+
+   <section>
+        <div class="confirm-container">
+            <!-- Confirm Button -->
+            <button class="confirm"> CONFIRM </button>
+        </div>
    </section>
 
    <footer> 
